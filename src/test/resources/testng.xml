@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="OD-mWeb Suite" verbose="1" thread-count="4" parallel="tests" configfailurepolicy="continue"> 
+    <test name="One Dine mobile web-app automation">
+        <classes>
+            <class name="runner.TestRunner"/> <!--Package.ClassName-->
+        </classes>
+    </test>
+</suite>
